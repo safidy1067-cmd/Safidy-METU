@@ -1,187 +1,349 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Safidy</title>
-    <link rel="icon" type="images" href="s logo.png">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cfilter id='glow'%3E%3CfeGaussianBlur stdDeviation='4' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Ctext x='50' y='75' font-size='70' text-anchor='middle' fill='aqua' font-family='Arial Black' font-weight='900' filter='url(%23glow)'%3ES%3C/text%3E%3C/svg%3E">
+
+    <meta name="theme-color" content="#00ffff">
+    <meta name="msapplication-TileColor" content="#00ffff">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="projet.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><span>Safidy</span></a>
-        </div>
-        <ul class="menu">
-            <li><a href="#a-propos">À propos</a></li>
-            <li><a href="#hobby">Hobby</a></li>
-            <li><a href="#Competences">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
-
-         <div class="responsive-menu"></div>
-    </header>
-
-    <section id="home">
-        <h2>Salut ! je m'appele Safidy</h2>
-        <h3>L1 en informatique</h3>
-        <h4>Bienvenue sur mon site web</h4>
-    </section>
-
-    <section id="a-propos">
-        <h1 class="title">À propos</h1>
-        <div class="img-desc">
-            <div class="left">
-                <img src="IMG/612377273_122105653449194202_1372220937391655656_n1.jpg" alt="">
-            </div>
-            <div class="right">
-                <h3>Je suis etudiant en informatique à l'Ecole de Management et d'Innovation Technologique en L1</h3>
-                <p style="font-style: italic;">Je m'appelle RAMIHONE Safidinirina Donné René . Née le 10 Juin 2007 à Fianarantsoa . Fils de RAMIHONE ANDRIANADRASANA Adrien Marie et de RAZANATSOA Martine . J'habite à Tambohomandrevo . 
-                    Pour moi, l'informatique est un immense terrain de jeu où la logique et la créativité se rencontrent pour résoudre des problèmes concrets . Je suis passionné par l'informatique depuis dès année ce qui me pousse à faire me surpaser dans ce domaine . 
-                    J'ai le diplôme de CEPE , BEPC et BACC .
-                </p><br><br>
-            </div>
+            <a href="index.html">
+                Saf<span class="custom-i">i</span>dy
+            </a>
         </div>
         
-    </section>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+         <div class="responsive-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
 
-    <section id="hobby">
-        <h1 class="title">Hobby</h1>
-        <div class="content">
-            <div class="box">
-                <img src="IMG/images (1).png" alt="">
-                <div class="content">
-                    <div>
-                        <h4>Basket-ball</h4>
-                        <p>le basket n'est pas qu'un simple sport, c'est une thérapie par le mouvement. Tout commence par ce son hypnotique : le rebond du ballon sur le sol, comme un deuxième cœur qui bat la mesure. Il y a cette décharge d'adrénaline quand le match est serré, mais aussi cette paix intérieure que l'on trouve seul face au panier, à enchaîner les lancers jusqu'à ce que le geste devienne pure mémoire musculaire . 
-                             On rate, on se fait contrer, on tombe, mais on se relève toujours pour la contre-attaque. C'est cette culture de l'effort et cette connexion instantanée avec ses coéquipiers qui font que, peu importe la fatigue, je finirai toujours par retourner sur le terrain.
+    <main>
+        
+        <section id="home">
+            <div class="home-content">
+                <span class="home-intro">Bienvenue sur mon portfolio</span>
+                <h1 class="home-name">
+                    <span class="small-text">Je suis</span>
+                    <span class="big-text">Safidy</span>
+                </h1>
+                <p class="home-position">Étudiant en L1 Informatique</p>
+                
+                <div class="home-social">
+                    <a href="https://github.com" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <a href="#a-propos" class="home-scroll">
+                    <span>Découvrir</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        
+        <section id="a-propos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Qui suis-je ?</span>
+                    <h2 class="section-title">À propos de moi</h2>
+                    
+                </div>
+                
+                <div class="about-wrapper">
+                    <div class="about-left">
+                        <div class="profile-card">
+                            <div class="profile-image-wrapper">
+                                <img src="IMG/612377273_122105653449194202_1372220937391655656_n1.jpg" alt="Safidy" class="profile-image">
+                                <div class="image-border"></div>
+                            </div>
+                            <div class="profile-info">
+                                <h4 class="profile-name">RAMIHONE Safidinirina Donné René</h4>
+                                <p class="profile-nick">dit Safidy</p>
+                                <div class="profile-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>10 Juin 2007</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Fianarantsoa</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-home"></i>
+                                        <span>Tambohomandrevo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-right">
+                        <h3 class="about-subtitle">Étudiant en L1 Informatique à l'EMIT</h3>
+                        <p class="about-description">
+                            Passionné par l'informatique depuis mon plus jeune âge, je considère ce domaine 
+                            comme un immense terrain de jeu où la logique et la créativité se rencontrent 
+                            pour résoudre des problèmes concrets.
+                        </p>
+                        
+                        <div class="diplomes-list">
+                            <h4>Diplômes obtenus</h4>
+                            <ul>
+                                <li><i class="fas fa-certificate"></i> CEPE</li>
+                                <li><i class="fas fa-certificate"></i> BEPC</li>
+                                <li><i class="fas fa-certificate"></i> BAC</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hobby">
+            <h2 class="section-title">Mes Hobbies</h2>
+            
+            <div class="hobby-grid">
+                <article class="hobby-card">
+                    <img src="IMG/images (1).png" alt="Icône Basket-ball">
+                    <div class="hobby-content">
+                        <h3>Basket-ball</h3>
+                        <p>
+                            Le basket est une thérapie par le mouvement. Du rebond du ballon à l'adrénaline 
+                            des matchs serrés, chaque moment sur le terrain est une leçon de persévérance et 
+                            de travail d'équipe.
                         </p>
                     </div>
-                </div>
-            </div>
-             <div class="box">
-                <img src="IMG/téléchargement (4).png" alt="">
-                <div class="content">
-                    <div>
-                        <h4>Gaming</h4>
-                        <p>Les jeux vidéos sont bien plus que de simple divertissement : ce sont de véritable fenêtre ouverte sur l'imaginaire. Ce qui me fascine, c'est cette capacité unique de passer du rôle de spectateur à celui d'acteur, de vivre des épopées épiques et de résoudre des énigmes complexes tout en explorant des univers à la direction artistique soignée. 
-                            Qu'il s'agisse de l'adrénaline d'une compétition en ligne ou de la profondeur narrative d'une aventure en solo, chaque session est une occasion de relever des défis et de repousser mes limites. C'est un média qui allie technologie, narration et interactivité, créant des souvenirs et des émotions qu'aucun autre support ne peut offrir.  </p>
-                    </div>
-                </div>
-            </div>
-             <div class="box">
-                <img src="IMG/images (2).png" alt="">
-                <div class="content">
-                    <div>
-                        <h4>Music</h4>
-                        <p>La musique est bien plus qu'un simple passe-temps ; c'est une véritable respiration. Dès que je mets mes écouteurs, le tumulte du monde extérieur s'efface pour laisser place à un univers intime où chaque mélodie entre en résonance avec mes émotions . 
-                            Que ce soit pour trouver une étincelle d'inspiration, apaiser mon esprit après une longue journée, ou simplement amplifier ma joie, chaque note agit comme un langage secret qui me comprend sans avoir besoin de mots. La musique possède ce don unique de transformer le quotidien, habillant les moments les plus banals de la vie pour en faire une expérience profondément cinématographique et vibrante.</p>
-                    </div>
-                </div>
-            </div>
-             <div class="box">
-                <img src="IMG/images.png" alt="">
-                <div class="content">
-                    <div>
-                        <h4>Animés</h4>
-                        <p>Les animés sont pour moi bien plus qu'un simple divertissement ; ce sont des portes ouvertes vers des mondes d'une imagination infinie. Chaque épisode est une véritable invitation au voyage, où l'art de l'animation sublime des récits d'une profondeur émotionnelle souvent insoupçonnée. J'aime la façon dont ces œuvres parviennent à capturer toute la complexité de l'âme humaine, des combats intérieurs et des moments de pure poésie visuelle . 
-                            Que ce soit à travers l'évolution inspirante d'un protagoniste, l'intensité d'une bande-son ou la beauté époustouflante d'une scène, les animés nourrissent constamment mon esprit. Ils sont une véritable source d'inspiration au quotidien, me rappelant que le courage et la persévérance permettent de surmonter les plus grands obstacles.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </article>
 
-    <section class="Competences" id="Competences">
-        <h1 class="title">Compétences</h1>
-        <form>
-            <div class="left-right">
-                <div class="left">
-                    <h1 class="skills">Langues</h1>
-                        <p class="skills-name"><span>Français</span><span>70%</span></p>
+                <article class="hobby-card">
+                    <img src="IMG/téléchargement (4).png" alt="Icône Gaming">
+                    <div class="hobby-content">
+                        <h3>Gaming</h3>
+                        <p>
+                            Les jeux vidéo sont des fenêtres sur l'imaginaire. Alliant technologie, narration 
+                            et interactivité, ils offrent des expériences uniques où chaque défi est une 
+                            opportunité de repousser mes limites.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="hobby-card">
+                    <img src="IMG/images (2).png" alt="Icône Musique">
+                    <div class="hobby-content">
+                        <h3>Musique</h3>
+                        <p>
+                            La musique est ma respiration quotidienne. Chaque mélodie résonne avec mes émotions, 
+                            transformant les moments ordinaires en expériences cinématographiques uniques.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="hobby-card">
+                    <img src="IMG/images.png" alt="Icône Animés">
+                    <div class="hobby-content">
+                        <h3>Animés</h3>
+                        <p>
+                            Les animés sont des portes vers des mondes d'imagination infinie. Leur profondeur 
+                            émotionnelle et leur art m'inspirent quotidiennement, rappelant que persévérance 
+                            et courage mènent à la réussite.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        
+        <section id="competences">
+            <h2 class="section-title">Compétences</h2>
+            
+            <div class="skills-container">
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-language"></i> Langues</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fas fa-flag"></i> Français</span>
+                            <span>70%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 70%;"></div>
                         </div>
-                        <p class="skills-name"><span>Anglais</span><span>50%</span></p>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fas fa-flag"></i> Anglais</span>
+                            <span>50%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 50%;"></div>
                         </div>
-                        <p class="skills-name"><span>Malagasy</span><span>80%</span></p>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fas fa-flag"></i> Malagasy</span>
+                            <span>80%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 80%;"></div>
                         </div>
+                    </div>
                 </div>
-                <div class="right">
-                    <h1 class="skills">Langagues de programmation</h1>
-                        <p class="skills-name">
-                            <span>HTML</span>
-                            <span>70%</span></p>
+
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Langages de programmation</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fab fa-html5"></i> HTML</span>
+                            <span>70%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 70%;"></div>
-                        </div>    
-                        <p class="skills-name">
-                            <span>CSS</span>
-                            <span>60%</span></p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span>60%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 60%;"></div>
-                        </div>   
-                        <p class="skills-name">
-                            <span>Javascript</span>
-                            <span>30%</span></p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fab fa-js"></i> JavaScript</span>
+                            <span>30%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 30%;"></div>
-                        </div>    
-                        <p class="skills-name">
-                            <span>Python</span>
-                            <span>40%</span></p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-label">
+                            <span><i class="fab fa-python"></i> Python</span>
+                            <span>40%</span>
+                        </div>
                         <div class="skill-bar">
                             <div class="skill-progress" style="width: 40%;"></div>
-                        </div>        
+                        </div>
+                    </div>
                 </div>
-            </div>    
-        </form>
+            </div>
+        </section>
+
         
-    </section>
+       <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
 
-    <section id="contact">
-        <h1 class="title">Contact</h1>
-        <form class="contact-form">
-            <div class="form-group">
-                <label for="name" class="form-label">Nom</label>
-                <input type="text" id="name" class="form-input" required>
-            </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                </div>
 
-            <div class="form-group">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" id="email" class="form-input" required>
-            </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" placeholder="Motif de votre message" required>
+                </div>
 
-            <div class="form-group">
-                <label for="subject" class="form-label">Suject</label>
-                <input type="text" id="subject" class="form-input" required>
-            </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                </div>
+                
 
-            <div class="form-group">
-                <label for="message" class="form-label">Message</label>
-                <textarea id="message" class="form-textarea" required></textarea>
-            </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Envoyer
+                </button>
+            </form>
+        </section>
+    </main>
 
-            <button type="submit" class="submit-btn">Envoyer</button>
-        </form>
-    </section>
-    <section class="social-links">
-        <a href="github.com" class="social-link"><i class="fa fa-github" style="color: aqua;"></i></a>
-    </section>
-
+    
     <footer>
-        <a href="http://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 0 640 640" width="34px"><path d="M576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 440 146.7 540.8 258.2 568.5L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 574.1C477.8 558.8 576 450.9 576 320z"/></svg></a>
-        <a href="http://whatsapp.com"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 0 640 640" width="34px"><path d="M476.9 161.1C435 119.1 379.2 96 319.9 96C197.5 96 97.9 195.6 97.9 318C97.9 357.1 108.1 395.3 127.5 429L96 544L213.7 513.1C246.1 530.8 282.6 540.1 319.8 540.1L319.9 540.1C442.2 540.1 544 440.5 544 318.1C544 258.8 518.8 203.1 476.9 161.1zM319.9 502.7C286.7 502.7 254.2 493.8 225.9 477L219.2 473L149.4 491.3L168 423.2L163.6 416.2C145.1 386.8 135.4 352.9 135.4 318C135.4 216.3 218.2 133.5 320 133.5C369.3 133.5 415.6 152.7 450.4 187.6C485.2 222.5 506.6 268.8 506.5 318.1C506.5 419.9 421.6 502.7 319.9 502.7zM421.1 364.5C415.6 361.7 388.3 348.3 383.2 346.5C378.1 344.6 374.4 343.7 370.7 349.3C367 354.9 356.4 367.3 353.1 371.1C349.9 374.8 346.6 375.3 341.1 372.5C308.5 356.2 287.1 343.4 265.6 306.5C259.9 296.7 271.3 297.4 281.9 276.2C283.7 272.5 282.8 269.3 281.4 266.5C280 263.7 268.9 236.4 264.3 225.3C259.8 214.5 255.2 216 251.8 215.8C248.6 215.6 244.9 215.6 241.2 215.6C237.5 215.6 231.5 217 226.4 222.5C221.3 228.1 207 241.5 207 268.8C207 296.1 226.9 322.5 229.6 326.2C232.4 329.9 268.7 385.9 324.4 410C359.6 425.2 373.4 426.5 391 423.9C401.7 422.3 423.8 410.5 428.4 397.5C433 384.5 433 373.4 431.6 371.1C430.3 368.6 426.6 367.2 421.1 364.5z"/></svg></a>
-        <a href="http://github.com"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 0 640 640" width="34px"><path d="M237.9 461.4C237.9 463.4 235.6 465 232.7 465C229.4 465.3 227.1 463.7 227.1 461.4C227.1 459.4 229.4 457.8 232.3 457.8C235.3 457.5 237.9 459.1 237.9 461.4zM206.8 456.9C206.1 458.9 208.1 461.2 211.1 461.8C213.7 462.8 216.7 461.8 217.3 459.8C217.9 457.8 216 455.5 213 454.6C210.4 453.9 207.5 454.9 206.8 456.9zM251 455.2C248.1 455.9 246.1 457.8 246.4 460.1C246.7 462.1 249.3 463.4 252.3 462.7C255.2 462 257.2 460.1 256.9 458.1C256.6 456.2 253.9 454.9 251 455.2zM316.8 72C178.1 72 72 177.3 72 316C72 426.9 141.8 521.8 241.5 555.2C254.3 557.5 258.8 549.6 258.8 543.1C258.8 536.9 258.5 502.7 258.5 481.7C258.5 481.7 188.5 496.7 173.8 451.9C173.8 451.9 162.4 422.8 146 415.3C146 415.3 123.1 399.6 147.6 399.9C147.6 399.9 172.5 401.9 186.2 425.7C208.1 464.3 244.8 453.2 259.1 446.6C261.4 430.6 267.9 419.5 275.1 412.9C219.2 406.7 162.8 398.6 162.8 302.4C162.8 274.9 170.4 261.1 186.4 243.5C183.8 237 175.3 210.2 189 175.6C209.9 169.1 258 202.6 258 202.6C278 197 299.5 194.1 320.8 194.1C342.1 194.1 363.6 197 383.6 202.6C383.6 202.6 431.7 169 452.6 175.6C466.3 210.3 457.8 237 455.2 243.5C471.2 261.2 481 275 481 302.4C481 398.9 422.1 406.6 366.2 412.9C375.4 420.8 383.2 435.8 383.2 459.3C383.2 493 382.9 534.7 382.9 542.9C382.9 549.4 387.5 557.3 400.2 555C500.2 521.8 568 426.9 568 316C568 177.3 455.5 72 316.8 72zM169.2 416.9C167.9 417.9 168.2 420.2 169.9 422.1C171.5 423.7 173.8 424.4 175.1 423.1C176.4 422.1 176.1 419.8 174.4 417.9C172.8 416.3 170.5 415.6 169.2 416.9zM158.4 408.8C157.7 410.1 158.7 411.7 160.7 412.7C162.3 413.7 164.3 413.4 165 412C165.7 410.7 164.7 409.1 162.7 408.1C160.7 407.5 159.1 407.8 158.4 408.8zM190.8 444.4C189.2 445.7 189.8 448.7 192.1 450.6C194.4 452.9 197.3 453.2 198.6 451.6C199.9 450.3 199.3 447.3 197.3 445.4C195.1 443.1 192.1 442.8 190.8 444.4zM179.4 429.7C177.8 430.7 177.8 433.3 179.4 435.6C181 437.9 183.7 438.9 185 437.9C186.6 436.6 186.6 434 185 431.7C183.6 429.4 181 428.4 179.4 429.7z"/></svg></a>
-        <a href="http://linkedin.com"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 0 640 640" width="34px"><path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg></a>
-        <p>Réalisé par <span>Safidy</span> | Tous les droits sont réservés.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>
+                    Saf<span class="custom-i-footer">i</span>dy
+                </h3>
+                <p>Étudiant en informatique passionné par le développement web et les nouvelles technologies.</p>
+                <div class="footer-social">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul class="quick-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Tambohomandrevo, Madagascar</li>
+                    <li><i class="fas fa-phone"></i> +261 34 12 345 67</li>
+                    <li><i class="fas fa-envelope"></i> safidy@email.com</li>
+                </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>Safidy</span> | Tous droits réservés </p>
+            
+        </div>
     </footer>
+
     <script src="projet.js"></script>
 </body>
-
 </html>
